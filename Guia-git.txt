@@ -1,0 +1,44 @@
+Empezar en git:
+	0. Instalar la herramienta git en el terminal : https://git-scm.com/book/es/v1/Empezando-Instalando-Git
+
+	1. Abrir el terminal, crear una carpeta donde quieras el repositorio y dirígete desde la terminal
+		⁃Comandos para manejarnos por el terminal (UNIX)
+			⁃ls : listar para ver todos los archivos de ese directorio.
+			⁃cd : cambiar de directorio.
+			⁃cd ..  : para volver atrás en el directorio.
+			⁃touch : crea un archivo vacío.
+			⁃mkdir : crea un nuevo directorio respecto donde estás.
+			⁃mkdir -p : crea ramas de directorios que no existen.
+			⁃pwd : nos dice nuestro rama actual de nuestro directorio.
+			⁃man [comando] : para consultar en el manual dicho comando.
+
+	2.	
+		⁃Desde un repositorio en GitHub:
+		⁃git clone /path/to/repository
+		⁃Crear un repositorio Local:
+		⁃git init /path
+	
+	3. git add <nombre_del_archivo>  o git . : para registrar los cambios (preparas los archivos  o cambios para ser añadidos al repositorios)
+	
+	4. Ahora añadimos esos cambios “commit” al repositorio local (o copia del remoto)
+		⁃ git commit -m “Mensaje explicando el cambio”
+		⁃ HEAD ya apunta a esta versión del archivo.
+	5. Añadimos definitivamente este archivo al repositorio remoto
+		⁃ git remote add origin <server>
+	6.	
+
+
+- git init : crea un repositorio nuevo.
+- git clone /path/to/repository : clona un repositorio que está en Github.
+- git commit 
+
+Zonas de trabajo:
+
+- El directorio de trabajo.
+- Index (Stage) : Zona intermedia entre el directorio (local) y el servidor.
+- HEAD : apunta al último commit realizado.
+
+Tips:
+	• https://gist.github.com/jelcaf/1404619
+	• http://rogerdudler.github.io/git-guide/index.es.html
+
