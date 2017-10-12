@@ -31,6 +31,8 @@ Empezar en git:
 - git init : crea un repositorio nuevo.
 - git clone /path/to/repository : clona un repositorio que está en Github.
 - git commit 
+- git log : para ver los cambios.
+
 
 Zonas de trabajo:
 
