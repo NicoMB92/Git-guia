@@ -11,6 +11,9 @@ Empezar en git:
 			⁃mkdir -p : crea ramas de directorios que no existen.
 			⁃pwd : nos dice nuestro rama actual de nuestro directorio.
 			⁃man [comando] : para consultar en el manual dicho comando.
+			-rm -rf nombre_directorio: para borrar el directorio que se desee.
+			-vi nombre_fichero: para editar en el mismo terminal
+			-pwd: muestra el directorio en el que te encuentras.
 
 	2.	
 		⁃Desde un repositorio en GitHub:
@@ -31,7 +34,7 @@ Empezar en git:
 - git init : crea un repositorio nuevo.
 - git clone /path/to/repository : clona un repositorio que está en Github.
 - git commit 
-- git log : para ver los cambios.
+- git log : para ver todos los commits que se han añadido.
 
 
 Zonas de trabajo:
