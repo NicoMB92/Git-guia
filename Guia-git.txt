@@ -28,10 +28,23 @@ Empezar en git:
 	6.	
 
 
+Comandos Git:
+
 - git init : crea un repositorio nuevo.
 - git clone /path/to/repository : clona un repositorio que está en Github.
 - git commit 
 - git log : para ver los cambios.
+- git config --global http.proxy 'proxy.wifi.uma.es:3128' : para redes con proxy
+- git add origin (archivos que vas a modificar)
+
+origin es el nombre (alias) que se le da al repositorio al que le vas a hacer stage
+
+
+Atributos
+
+-u : para hacer tracking del repositorio anterior y así tener sincronizado los repositorios
+
+-m :de master
 
 
 Zonas de trabajo:
@@ -43,4 +56,3 @@ Zonas de trabajo:
 Tips:
 	• https://gist.github.com/jelcaf/1404619
 	• http://rogerdudler.github.io/git-guide/index.es.html
-
