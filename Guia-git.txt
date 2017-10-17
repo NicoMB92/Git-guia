@@ -1,4 +1,5 @@
 Empezar en git:
+
 	0. Instalar la herramienta git en el terminal : https://git-scm.com/book/es/v1/Empezando-Instalando-Git
 
 	1. Abrir el terminal, crear una carpeta donde quieras el repositorio y dirígete desde la terminal
@@ -11,6 +12,8 @@ Empezar en git:
 			⁃mkdir -p : crea ramas de directorios que no existen.
 			⁃pwd : nos dice nuestro rama actual de nuestro directorio.
 			⁃man [comando] : para consultar en el manual dicho comando.
+			-*.extension : para referirnos a todos las extensiones de un directorio
+			-
 
 	2.	
 		⁃Desde un repositorio en GitHub:
@@ -31,20 +34,31 @@ Empezar en git:
 Comandos Git:
 
 - git init : crea un repositorio nuevo.
-- git clone /path/to/repository : clona un repositorio que está en Github.
+- git clone /path/to/repository : clona un repositorio que está en Github a tu directorio local.
 - git commit 
-- git log : para ver los cambios.
+- git log : para ver los cambios(todos los commits) y su HEAD.
 - git config --global http.proxy 'proxy.wifi.uma.es:3128' : para redes con proxy
-- git add origin (archivos que vas a modificar)
+- git add origin (archivos que vas a modificar) ->origin es el nombre (alias) que se le da al repositorio al que le vas a hacer stage
+- git remote -v : muestra los repositorios remotos que tienes con su respectivo enlace
+- git remote : muestra los alias de los repositorios remotos que tienes
+- git remote add [nombre] [url] : para añadir repositorios remotos y asignarle un alias
+- git remote show [nombre-repositorio] : para mostrar más información del repositorio remoto
+- git remote rename : para renombrar una referencia a un repositorio remoto
+- git remote rm  [alias-repositorio-remoto]: para eliminar un repositorio remoto 
+- git fetch [remote-name] : para recuperar datos remotos de tus repositorios remotos
+- git pull : para recuperar y unir la rama remota con la rama actual. 
+- git push [nombre-remoto][nombre-rama] : para enviar un repositorio local a uno remoto
 
-origin es el nombre (alias) que se le da al repositorio al que le vas a hacer stage
 
 
 Atributos
 
 -u : para hacer tracking del repositorio anterior y así tener sincronizado los repositorios
 
--m :de master
+-m : de master(rama maestra)
+
+rm : remove
+
 
 
 Zonas de trabajo:
@@ -53,6 +67,12 @@ Zonas de trabajo:
 - Index (Stage) : Zona intermedia entre el directorio (local) y el servidor.
 - HEAD : apunta al último commit realizado.
 
-Tips:
+Referencias:
+
 	• https://gist.github.com/jelcaf/1404619
 	• http://rogerdudler.github.io/git-guide/index.es.html
+	• https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos
+
+Tips: 
+	• Para usuarios Mac puedes probar la terminal Iterm2 (gratuita) e instalar https://gist.github.com/kevin-smets/8568070
+	
