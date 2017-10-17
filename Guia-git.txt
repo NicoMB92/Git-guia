@@ -12,8 +12,9 @@ Empezar en git:
 			⁃mkdir -p : crea ramas de directorios que no existen.
 			⁃pwd : nos dice nuestro rama actual de nuestro directorio.
 			⁃man [comando] : para consultar en el manual dicho comando.
-			-*.extension : para referirnos a todos las extensiones de un directorio
-			-
+			-cat : concatena archivos y/o los muestra como salida. 
+			-*.extension : para referirnos a todos las extensiones de un directorio.
+
 
 	2.	
 		⁃Desde un repositorio en GitHub:
@@ -28,26 +29,30 @@ Empezar en git:
 		⁃ HEAD ya apunta a esta versión del archivo.
 	5. Añadimos definitivamente este archivo al repositorio remoto
 		⁃ git remote add origin <server>
+		- git commit -m “Mensaje explicando el cambio”
+		- git push [nombre-repositorio-remoto] [nombre-rama]
 	6.	
 
 
 Comandos Git:
 
 - git init : crea un repositorio nuevo.
-- git clone /path/to/repository : clona un repositorio que está en Github a tu directorio local.
+- git clone /path/to/repository : clona un repositorio que está en Github a tu directorio local. Ej: git clone https://github.com/arduino/Arduino
 - git commit 
+- git status : para saber el estado de los archivos
 - git log : para ver los cambios(todos los commits) y su HEAD.
 - git config --global http.proxy 'proxy.wifi.uma.es:3128' : para redes con proxy
 - git add origin (archivos que vas a modificar) ->origin es el nombre (alias) que se le da al repositorio al que le vas a hacer stage
+- git fetch [remote-name] : para recuperar datos remotos de tus repositorios remotos
+- git pull : para recuperar y unir la rama remota con la rama actual. 
+- git push [nombre-remoto][nombre-rama] : para enviar un repositorio local a uno remoto Ej: git push origin master
 - git remote -v : muestra los repositorios remotos que tienes con su respectivo enlace
 - git remote : muestra los alias de los repositorios remotos que tienes
 - git remote add [nombre] [url] : para añadir repositorios remotos y asignarle un alias
 - git remote show [nombre-repositorio] : para mostrar más información del repositorio remoto
 - git remote rename : para renombrar una referencia a un repositorio remoto
 - git remote rm  [alias-repositorio-remoto]: para eliminar un repositorio remoto 
-- git fetch [remote-name] : para recuperar datos remotos de tus repositorios remotos
-- git pull : para recuperar y unir la rama remota con la rama actual. 
-- git push [nombre-remoto][nombre-rama] : para enviar un repositorio local a uno remoto
+
 
 
 
@@ -72,6 +77,7 @@ Referencias:
 	• https://gist.github.com/jelcaf/1404619
 	• http://rogerdudler.github.io/git-guide/index.es.html
 	• https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos
+	• https://aprendiendoausarlinux.wordpress.com/2011/11/18/el-comando-cat-en-unix/
 
 Tips: 
 	• Para usuarios Mac puedes probar la terminal Iterm2 (gratuita) e instalar https://gist.github.com/kevin-smets/8568070
