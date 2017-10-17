@@ -78,7 +78,9 @@ Referencias:
 	• http://rogerdudler.github.io/git-guide/index.es.html
 	• https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos
 	• https://aprendiendoausarlinux.wordpress.com/2011/11/18/el-comando-cat-en-unix/
+	• https://gist.github.com/evantoli/f8c23a37eb3558ab8765
 
 Tips: 
 	• Para usuarios Mac puedes probar la terminal Iterm2 (gratuita) e instalar https://gist.github.com/kevin-smets/8568070
+AÑADIR PROBLEMAS PROXY
 	
