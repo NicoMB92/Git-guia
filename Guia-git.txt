@@ -53,6 +53,10 @@ Comandos Git:
 - git remote rename : para renombrar una referencia a un repositorio remoto
 - git remote rm  [alias-repositorio-remoto]: para eliminar un repositorio remoto 
 
+Para Crear y visualizar diferentes Ramas:
+- git branch: para ver cuantas ramas hay creadas en el repositorio
+- git branch nombre_rama: para crear una nueva rama diferente de la master
+
 
 
 
